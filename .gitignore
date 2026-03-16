@@ -1,0 +1,22 @@
+# Environment files
+.env
+.env.*
+
+# Laravel backend
+/backend/vendor
+/backend/node_modules
+/backend/storage/*.key
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode
+.idea
+
+# Docker temporary files
+docker/*.log
